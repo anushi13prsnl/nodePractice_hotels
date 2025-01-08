@@ -4,6 +4,7 @@
 require("dotenv").config();
 const mongoURL = process.env.MONGODB_URL; 
 // const mongoURL = process.env.MONGODB_URL_LOCAL; 
+console.log("MongoDB URL:", process.env.MONGODB_URL);
 
 
 // Connect to the database without deprecated options
